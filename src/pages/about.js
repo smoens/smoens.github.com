@@ -1,14 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
+import Me from "../images/about-me.jpg"      
 
 const AboutPage = () => {
     return (
         <Layout>
             <Head title="About" />
-            <h1><Link to="/contact">Froes Peeters</Link></h1>
-            <p>I am the world's greatest cat.</p>
+            <img src={Me} />
+            <p>Hello there! I'm Sarah Moens.</p>
+            <p>You'll mostly find me talking about data integration, data warehousing, data visualisation, human or machine learning, hiking, or some new tools or features I recently stumbled upon.</p>
         </Layout>
     )
 }
