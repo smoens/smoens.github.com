@@ -10,7 +10,7 @@ const BlogPage = ({ data }) => {
     return (
         <Layout>
             <Head title='Blog'/>
-            <h1>Blog</h1>
+            <h2>Blog</h2>
             <ol className={blogStyles.posts}>
                 {posts.map(post => {
                     return (

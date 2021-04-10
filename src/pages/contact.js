@@ -7,8 +7,12 @@ const ContactPage = () => {
     return (
         <Layout>
             <Head title="Contact"/>
-            <h1>Contact</h1>
-            <p>Miauw Miauw <a href="https://www.twitter.com/s_moens">Twitter</a></p>
+            <h2>Contact</h2>
+            <ul>
+                <li><a href="https://www.twitter.com/s_moens">Twitter</a></li>
+                <li><a href="https://www.github.com/smoens">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/moenssarah">LinkedIn</a></li>
+            </ul>
         </Layout>
     )
 }
