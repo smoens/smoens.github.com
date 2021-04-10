@@ -1,7 +1,6 @@
 import React from "react"
 
 import Header from "./header"
-import Footer from "./footer"
 
 import '../styles/index.scss'
 import * as layoutStyles from "../components/layout.module.scss"
@@ -13,7 +12,6 @@ const Layout = ( props ) => {
                 <Header />
                 { props.children }
             </div>
-            <Footer />
         </div>
     )
 }
