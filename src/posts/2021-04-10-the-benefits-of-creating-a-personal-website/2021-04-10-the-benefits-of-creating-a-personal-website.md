@@ -2,14 +2,14 @@
 title: "The Benefits of Creating a Personal Website"
 date: "2021-04-10"
 ---
-This is the start of my journey in consolidating knowledge through means of a personal website and documenting my professional journey along the way. This isn't my first attempt, and probably not my last, but I'm happy and excited about this new endeavour.
+This is the start of my journey in consolidating knowledge through means of a personal website and documenting my professional journey along the way. This isn't my first attempt, and probably not my last, but I am happy and excited about this new endeavour.
 
 Below I will outline the reasons I started this website. In addition I will provide some examples of great personal websites that have inspired me.
 
 ## Reasons and benefits of building a personal website
 
 ### Track your capstone projects
-Although a website isn't a project or task management tool, I do consider it useful to give an overview of the projects you're most proud of. That's why I like the website structure of Leon Overweel.
+Although a website is not a project or task management tool, I do consider it useful to give an overview of the projects you are most proud of. That is why I like the website structure of Leon Overweel.
 
 Below you can see part of his overview of past projects with nice coloured labels what the project is about. It also provides a timeline of the work he has done.
 ![Image of Leon Overweel's past projects](./leon-overweel-past-projects.png "Leon Overweel - Past projects")
@@ -21,7 +21,7 @@ I also his section about "Skills" as well, you can click on a skill and see all 
 I believe that writing about topics or articles that interest me, stimulates me to really structure the content I read. It makes you challenge your own knowledge, and it makes you more alert to words you don't really understand. By writing content down I can consolidate and increase my understanding of a topic. Perhaps others can benefit from this shared knowledge and learnings as well.
 
 ### Building a professional resume
-A personal website can be a great way to keep track and document projects and skills you've build along the way. This is tied to what I've mentioned before about "Tracking your capstone projects". It can be a canvas of who you are personally and professionally. It also allows for more flexibility than a standard pdf or word document. Definitely take a look at the section "Examples of great personal websites" where you can find some example websites that are a great reference. This doesn't mean that these websites are build with this in mind, but to me they provide a way to tap into a person's skills and interests, and sometimes even a glimpse of their personality.  
+A personal website can be a great way to keep track and document projects and skills you've build along the way. This is tied to what I have mentioned before about "Tracking your capstone projects". It can be a canvas of who you are personally and professionally. It also allows for more flexibility than a standard pdf or word document. Definitely take a look at the section "Examples of great personal websites" where you can find some example websites that are a great reference. This does not mean that these websites are build with a professional goal in mind, but to me they provide a way to tap into a person's skills and interests, and sometimes even a glimpse of their personality.  
 
 ### Cultivating a digital garden
 
