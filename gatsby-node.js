@@ -3,7 +3,7 @@ const path = require('path')
 module.exports.onCreateNode = ({ node, actions }) => {
     const { createNodeField } = actions
 
-    if (node.internal.type === 'MarkdownRemark') {
+    if (node.internal.type === 'MarkdownRemark' && node.fileAbsolutePath != null) {
         const slug = path.basename(node.fileAbsolutePath, '.md')
         createNodeField({
             node,
@@ -18,7 +18,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
     const blogTemplate = path.resolve("./src/templates/blog.js")
     const res = await graphql(`
         query {
-            allMarkdownRemark {
+            allMarkdownRemark(filter: {fileAbsolutePath: {ne: null}}) {
             edges {
                 node {
                     fileAbsolutePath
@@ -32,13 +32,6 @@ module.exports.createPages = async ({ graphql, actions }) => {
     `)
     
     res.data.allMarkdownRemark.edges.forEach((edge) => {
-        /*
-        if (edge.node.fileAbsolutePath.includes('/blogs/')) { 
-            path = `/blog/${edge.node.fields.slug}` 
-        } else if (edge.node.fileAbsolutePath.includes('/notes/')) {
-            path = `/notes/${edge.node.fields.slug}`
-        }
-        */
         createPage({
             component: blogTemplate,
             path: `${edge.node.fileAbsolutePath.includes('/notes/') ? `/notes/${edge.node.fields.slug}` : `/blog/${edge.node.fields.slug}`}`,
@@ -48,16 +41,3 @@ module.exports.createPages = async ({ graphql, actions }) => {
         })
     })
 }
-
-/*
-module.exports.createPages = ({ graphql, actions }) => {
-    const { createRedirect } = actions
-    createRedirect({     
-        fromPath: '/',
-        exactPath: true,
-        isPermanent: false,
-        redirectInBrowser: true,
-        toPath: '/blog/' 
-    })
-  }
-*/

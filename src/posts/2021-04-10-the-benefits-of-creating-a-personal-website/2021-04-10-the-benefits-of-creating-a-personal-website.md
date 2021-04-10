@@ -2,6 +2,7 @@
 title: "The Benefits of Creating a Personal Website"
 date: "2021-04-10"
 ---
+
 This is the start of my journey in consolidating knowledge through means of a personal website and documenting my professional journey along the way. This isn't my first attempt, and probably not my last, but I am happy and excited about this new endeavour.
 
 Below I will outline the reasons I started this website. In addition I will provide some examples of great personal websites that have inspired me.

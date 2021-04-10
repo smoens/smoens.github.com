@@ -27,14 +27,26 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          'gatsby-remark-relative-images',
+          //'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 750,
               linkImagesToOriginal: false
             }
-          }
+          },
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: "Table of Contents",
+              tight: true,
+              ordered: false,
+              fromHeading: 1,
+              toHeading: 6,
+              className: "table-of-contents"
+            },
+          },
+          `gatsby-remark-autolink-headers`,
         ]
       }
     }
