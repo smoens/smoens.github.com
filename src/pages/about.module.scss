@@ -1,0 +1,20 @@
+$primary: #BD654C;
+$secondary: #EA8F1F;
+
+.contact {
+    font: $primary;
+
+    a {
+        padding: 0 0.5rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $primary;
+        font-weight: bold;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}

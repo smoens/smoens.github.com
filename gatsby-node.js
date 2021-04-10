@@ -49,3 +49,15 @@ module.exports.createPages = async ({ graphql, actions }) => {
     })
 }
 
+/*
+module.exports.createPages = ({ graphql, actions }) => {
+    const { createRedirect } = actions
+    createRedirect({     
+        fromPath: '/',
+        exactPath: true,
+        isPermanent: false,
+        redirectInBrowser: true,
+        toPath: '/blog/' 
+    })
+  }
+*/

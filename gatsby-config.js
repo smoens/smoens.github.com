@@ -11,6 +11,7 @@ module.exports = {
       author: "Sarah Moens"
   },
   plugins: [
+    'gatsby-plugin-meta-redirect',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -20,6 +21,7 @@ module.exports = {
         path: `${__dirname}/src/`
       },
     },
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-transformer-remark',
