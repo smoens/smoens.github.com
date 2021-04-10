@@ -10,7 +10,7 @@ const BlogPage = ({ data }) => {
     return (
         <Layout>
             <Head title='Blog'/>
-            <h2>Blog</h2>
+            <h1>Blog</h1>
             <ol className={blogStyles.posts}>
                 {posts.map(post => {
                     return (
@@ -28,21 +28,21 @@ const BlogPage = ({ data }) => {
 }
 
 export const query = graphql`
-    query BlogPageQuery {
-        allMarkdownRemark {
-            edges {
-                node {
-                    frontmatter {
-                        date
-                        title
-                    }
-                    fields {
-                        slug
-                    }        
-                }
-            }
+query BlogPageQuery {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}) {
+      edges {
+        node {
+          frontmatter {
+            date
+            title
+          }
+          fields {
+            slug
+          }
         }
-    }    
+      }
+    }
+  }  
 `
 
 export default BlogPage

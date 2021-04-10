@@ -21,9 +21,10 @@ module.exports.createPages = async ({ graphql, actions }) => {
             allMarkdownRemark {
             edges {
                 node {
-                fields {
-                    slug
-                }
+                    fileAbsolutePath
+                    fields {
+                      slug
+                    }
                 }
             }
             }
@@ -31,9 +32,16 @@ module.exports.createPages = async ({ graphql, actions }) => {
     `)
     
     res.data.allMarkdownRemark.edges.forEach((edge) => {
+        /*
+        if (edge.node.fileAbsolutePath.includes('/blogs/')) { 
+            path = `/blog/${edge.node.fields.slug}` 
+        } else if (edge.node.fileAbsolutePath.includes('/notes/')) {
+            path = `/notes/${edge.node.fields.slug}`
+        }
+        */
         createPage({
             component: blogTemplate,
-            path: `/blog/${edge.node.fields.slug}`,
+            path: `${edge.node.fileAbsolutePath.includes('/notes/') ? `/notes/${edge.node.fields.slug}` : `/blog/${edge.node.fields.slug}`}`,
             context: {
                 slug: edge.node.fields.slug
             }
