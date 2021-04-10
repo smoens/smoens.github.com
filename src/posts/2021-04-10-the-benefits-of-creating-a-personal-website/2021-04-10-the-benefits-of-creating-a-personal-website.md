@@ -14,7 +14,7 @@ Although a website is not a project or task management tool, I do consider it us
 Below you can see part of his overview of past projects with nice coloured labels what the project is about. It also provides a timeline of the work he has done.
 ![Image of Leon Overweel's past projects](./leon-overweel-past-projects.png "Leon Overweel - Past projects")
 
-I also his section about "Skills" as well, you can click on a skill and see all the associated projects he has done with regard to that skill. In my opinion it makes a skillset a lot more tangible than when you say you have senior experience for a certain skill.
+I like his section about "Skills" as well, you can click on a skill and see all the projects with regard to that skill. In my opinion it makes a skillset more tangible than when you say you have senior experience of a certain skill.
 ![Image of Leon Overweel's skills](./leon-overweel-skills.png "Leon Overweel - Skills")
 
 ### Learn and think by writing
