@@ -1,11 +1,19 @@
-.header {
-    padding: 1rem 0 3rem;
+$primary: #BD654C;
+$secondary: #EA8F1F;
 
+.header {
+    display: flex;
+    padding: 1rem 0 3rem;
+    justify-content: space-between;
+
+    img {
+        margin: 0 0.5rem;
+    }
 }
 
 .title {
-    color: #000000;
-    font-size: 3rem;
+    color: $primary;
+    font-size: 2rem;
     text-decoration: none;
 }
 
@@ -23,9 +31,11 @@
 }
 
 .nav-item:hover {
-    color: #666666;
+    color: $primary;
+    font-weight: bold;
 }
 
 .active-nav-item {
-    color: #333333;
+    color: $secondary;
+    font-weight: bold;
 }

@@ -32,3 +32,4 @@ https://www.flaticon.com | icon
 https://www.gatsbyjs.com/ | Gatsby framework 
 https://github.com/gatsbyjs/gatsby-starter-hello-world | Gatsby's Hello World starter
 https://www.youtube.com/watch?v=8t0vNu2fCCM | Gatsby Bootcamp
+https://coolors.co/ | color picker
