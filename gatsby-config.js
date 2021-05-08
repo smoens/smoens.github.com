@@ -55,17 +55,16 @@ module.exports = {
               },
             },
             `gatsby-remark-autolink-headers`,
-            
             {
               resolve: `gatsby-remark-double-brackets-link`,
               options: {
                 titleToURLPath: `${__dirname}/resolve-url.js`,
                 stripBrackets: true,
               }
-            }
-            
+            },
         ]
-      }
-    }
+      },
+    },
+    `gatsby-plugin-catch-links`
   ],
 }

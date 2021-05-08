@@ -11,6 +11,7 @@ const NotesPage = ({ data }) => {
         <Layout>
             <Head title='Notes'/>
             <h2>Notes</h2>
+            <p>This page is is my digital garden. Here I will gather snippets of insights, ideas, concepts... </p>
             <ol className={notesStyles.posts}>
                 {notes.map(note => {
                     return (
