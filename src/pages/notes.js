@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Head from "../components/head"
 
 const NotesPage = ({ data }) => {
-    const notes = data.allMarkdownRemark.edges
+    const notes = data.allMdx.edges
     return (
         <Layout>
             <Head title='Notes'/>
@@ -29,7 +29,7 @@ const NotesPage = ({ data }) => {
 
 export const query = graphql`
     query NotesPageQuery {
-        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/notes/"}}) {
+        allMdx(filter: {fileAbsolutePath: {regex: "/notes/"}}) {
         edges {
             node {
             frontmatter {

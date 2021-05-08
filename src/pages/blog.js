@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Head from "../components/head"
 
 const BlogPage = ({ data }) => {
-    const posts = data.allMarkdownRemark.edges
+    const posts = data.allMdx.edges
     return (
         <Layout>
             <Head title='Blog'/>
@@ -29,7 +29,7 @@ const BlogPage = ({ data }) => {
 
 export const query = graphql`
 query BlogPageQuery {
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}) {
+    allMdx(filter: {fileAbsolutePath: {regex: "/posts/"}}) {
       edges {
         node {
           frontmatter {
