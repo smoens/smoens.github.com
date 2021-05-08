@@ -37,6 +37,7 @@ module.exports = {
                 linkImagesToOriginal: false
               }
             },
+            /*
             {
               resolve: `gatsby-remark-table-of-contents`,
               options: {
@@ -48,6 +49,7 @@ module.exports = {
                 className: "table-of-contents"
               },
             },
+            */
             {
               resolve: `gatsby-transformer-markdown-references`,
               options: {
