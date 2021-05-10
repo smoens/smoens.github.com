@@ -5,7 +5,7 @@
   My Personal Website powered by Gatsby
 </h1>
 
-This website is created with <a href="https://github.com/gatsbyjs/gatsby-starter-hello-world">Gatsby's hello world starter template</a>. In addition, Gatsby's bootcamp by Andrew Mead was really helpful in getting started with a personal website ([Gatsby JS - The Great Gatsby Bootcamp [Full Tutorial] by Andrew J Mead](https://www.youtube.com/watch?v=8t0vNu2fCCM)).
+This website is created with <a href="https://github.com/gatsbyjs/gatsby-starter-hello-world">Gatsby's hello world starter template</a>. In addition, Gatsby's bootcamp by Andrew Mead was really helpful in getting started with a personal website ([Gatsby JS - The Great Gatsby Bootcamp [Full Tutorial] by Andrew J Mead](https://www.youtube.com/watch?v=8t0vNu2fCCM)). `test`
 
 ## 🧐 What's inside?
     .
