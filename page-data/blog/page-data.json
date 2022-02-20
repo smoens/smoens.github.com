@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-blog-js","path":"/blog/","result":{"data":{"allMdx":{"edges":[{"node":{"frontmatter":{"date":"2021-05-08","title":"The Benefits of Creating a Personal Website"},"fields":{"slug":"2021-05-08-the-benefits-of-creating-a-personal-website"}}}]}},"pageContext":{}},"staticQueryHashes":["3159585216","440568431"]}
+{
+    "componentChunkName": "component---src-pages-blog-js",
+    "path": "/blog/",
+    "result": {"data":{"allMdx":{"edges":[{"node":{"frontmatter":{"date":"2021-05-08","title":"The Benefits of Creating a Personal Website"},"fields":{"slug":"2021-05-08-the-benefits-of-creating-a-personal-website"}}}]}},"pageContext":{}},
+    "staticQueryHashes": ["3159585216","440568431"]}
